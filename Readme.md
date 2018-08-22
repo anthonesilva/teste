@@ -36,3 +36,11 @@
 #git diff - vê o que alterou antes de comitar
 #
 #git diff --name-only - para ver só o nome do arquivo que foi alterado
+#
+#git checkout "Nome do arquivo" - retorna um arquivo para antes da alterando, enquanto ainda aparece no git diff, ou seja, status modified
+#
+#git reset HEAD "Nome do arquivo" - retira o arquivo da fila do staged
+#
+#git reset --soft(volta para o stage) --mixed (volta para o modified) --hard (volta ao estado zedo, desconsidera totalmente as alterações) "Número da transação"
+#escolhe sempre o commit anterior ao que se quer excluir, ou seja, para qual estado se deseja voltar
+#
