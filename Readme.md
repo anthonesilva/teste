@@ -44,3 +44,12 @@
 #git reset --soft(volta para o stage) --mixed (volta para o modified) --hard (volta ao estado zedo, desconsidera totalmente as alterações) "Número da transação"
 #escolhe sempre o commit anterior ao que se quer excluir, ou seja, para qual estado se deseja voltar
 #
+#-------TRABALHANDO COM REPOSITÓRIOS REMOTOS
+#
+#Seguir os passos do github para adicionar o repositório
+#
+#git remote
+#git remote -v
+#
+#git push -u origin master - envia todos os arquivos, logs e alterações do meu repositório para o repositório remoto
+#
