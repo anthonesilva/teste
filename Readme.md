@@ -1,5 +1,7 @@
 # Github
 #
+# Repositório git-course
+#
 #Arquivo da aula de iniciantes para Git e Github
 #
 #----------------CONFIGURAÇÕES INICIAIS--------------------
@@ -19,6 +21,8 @@
 #git add "nome do arquivo" - adicionar arquivo para commit
 #
 #git commit -m "Comentário ao subir arquivo" - envia arquivo para o repositório
+#git commit -am "Edit tal arquivo" - opção a em um arquivo que já existiu
+#
 #
 #git status - verifica o status do repositório
 #
@@ -28,3 +32,7 @@
 #git shortlog -sn
 #git log --author="Autor"
 #git show "número da transação"
+#
+#git diff - vê o que alterou antes de comitar
+#
+#git diff --name-only - para ver só o nome do arquivo que foi alterado
